@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   dropdown: {
-    flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
+    flexDirection: 'row-reverse' ,
     justifyContent: 'space-between',
     alignItems: 'center',
   },
